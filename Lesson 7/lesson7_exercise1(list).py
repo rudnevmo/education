@@ -1,0 +1,6 @@
+a = input('Enter your numbers (through space): ')
+b = a.split()
+c = list(map(int, b))
+print('List: ', c)
+print('Max and min number of list: ', max(c), ',', min(c), 'Sum: ', sum(c))
+print(sum(c) / len((c)))
